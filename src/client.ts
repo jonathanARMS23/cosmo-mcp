@@ -31,6 +31,7 @@ class ErpNextClient {
         Authorization: `token ${apiKey}:${apiSecret}`,
         'Content-Type': 'application/json',
         Accept: 'application/json',
+        Expect: '',
       },
       timeout: 30000,
     });
